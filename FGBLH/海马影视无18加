@@ -58,7 +58,13 @@
         "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp",
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
-         {
+        {
+			"api": "https://newtv.ggff.net/pingguo?token=dt7oO7x4",
+			"key": "嗷呜小苹果",
+			"name": "🦄小苹果｜追剧",
+			"type": 4
+		},
+        {
             "name": "🦄糖心｜追剧",
             "key": "TnewGr",
             "type": 3,
@@ -108,18 +114,6 @@
 			"api": "https://catbox.n13.club/t9/huaxiaozhu.php"
 		},
         {
-			"key": "T4-jimi",
-			"name": "🦄吉米｜追剧",
-			"type": 4,
-			"api": "https://catbox.n13.club/t9/jimi.php"
-		},
-		{
-			"key": "T4-batian",
-			"name": "🦄八天｜追剧",
-			"type": 4,
-			"api": "https://catbox.n13.club/t9/batian.php"
-		},
-        {
       "key": "量子2k",
       "name": "🦄量子影视｜追剧",
       "type": 1,
@@ -144,15 +138,6 @@
         "爱情片",
         "喜剧片"
       ]
-      },
-      {
-      "key": "柠檬",
-      "name": "🦄柠檬｜追剧",
-      "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 2,
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/柠檬.jar",
-      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
       },
         {
 			"key": "爱瓜TV",
@@ -230,21 +215,13 @@
         "海外动漫"
          ]
         },
-{"name":"🦄小苹果🍎｜追剧","key":"小苹果丨影视","type":3,"api":"csp_XpgAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄厂长🏭｜追剧","key":"厂长丨影视","type":3,"api":"csp_CzzyAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄豪堪短剧🎦｜短剧","key":"豪堪短剧","type":3,"api":"csp_HHkkAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄盒马短剧📺｜短剧","key":"盒马短剧","type":3,"api":"csp_HemaAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄拜拜短剧🎞️｜短剧","key":"拜拜短剧","type":3,"api":"csp_BddjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄锦鲤短剧🐠｜短剧","key":"锦鲤短剧","type":3,"api":"csp_JLdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄喵喵短剧🐱｜短剧","key":"喵喵短剧","type":3,"api":"csp_QmdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-{"name":"🦄星星短剧⭐｜短剧","key":"星星短剧","type":3,"api":"csp_XydjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-          {
-			"key": "T4-hongguo",
-			"name": "🦄红果短剧🍎｜短剧",
+        {
+			"key": "聚合短剧",
+			"name": "🦄聚合短剧｜短剧",
 			"type": 4,
-			"api": "https://catbox.n13.club/ai/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.php"
-		 },     
-          {"key": "csp_Kugou",
+			"api": "http://zhangqun1818.serv00.net:6628/?spider=%E8%81%9A%E5%90%88%E7%9F%AD%E5%89%A7"
+		},
+        {"key": "csp_Kugou",
 "name": "🦄酷狗音乐｜音乐",
 "type": 3,
 "api": "csp_Kugou",
@@ -617,6 +594,12 @@
             "type": 0,
             "ua": "okhttp",
             "url": "https://im5k.fun/vip.m3u"
+        },
+        {
+            "name": "🦄港奥台国际",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv123.vvvv.ee/tv.m3u"
         },
         {
             "name": "🦄中港台直播源",
