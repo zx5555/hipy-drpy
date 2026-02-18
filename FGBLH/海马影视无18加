@@ -566,6 +566,12 @@
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
         }, 
         {
+            "name": "🦄电视家",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://gh.catmak.name/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"
+        },
+        {
             "name": "🦄裤佬TV",
             "type": 0,
             "ua": "okhttp",
