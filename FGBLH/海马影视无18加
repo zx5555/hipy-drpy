@@ -75,6 +75,12 @@
             "switchable": 1
         },
         {
+			"key": "T4-哇哇",
+			"name": "🦄哇哇影视｜追剧",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/哇哇影视.php"
+		},
+        {
 			"api": "https://newtv.ggff.net/pingguo?token=dt7oO7x4",
 			"key": "嗷呜小苹果",
 			"name": "🦄小苹果｜追剧",
