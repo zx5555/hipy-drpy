@@ -15,30 +15,15 @@
             "logo":"https://epg.112114.xyz/logo/{name}.png"
  },
 
-    {
-      "name": "live",
+  {
+      "name": "🐅mytv",
       "type": 0,
-      "url": "http://live.7887887.xyz/smart.m3u?token=7887887",
+      "url": "http://xtvantsc.xyz/mytv.m3u",
       "playerType": 1,
-      "epg": "https://m3u.ibert.me/epg/112114_xyz.xml",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-   },
-
-{
-            "name": "SmartTV",
-            "url": "http://live.catvod.com/tv.m3u",
-            "ua": "catvod.com",
-            "timeout": 30,
-            "playerType": 1
-        },
-
-{
-            "name": "SmartTV2",
-            "url": "https://raw.githubusercontent.com/cm851228/my51228888/refs/heads/main/smarttv2.txt",
-            "ua": "catvod.com",
-            "timeout": 30,
-            "playerType": 1
-        },
+    },
 
   {
       "name": "Gather",
@@ -58,11 +43,74 @@
       "url": "https://ds65.tv1288.xyz"
     },
 
+        {
+            "name": "🦄地方直播 TG:@usfgrjk",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+        }, 
+
+        {
+            "name": "🦄地方直播2 TG:@usfgrjk",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
+        }, 
+
+        {
+            "name": "🦄电视家",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"
+        },
+
+        {
+            "name": "🦄裤佬TV",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+        },
+
+        {
+            "name": "🦄环球斯玛特",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/环球斯玛特"
+        },
+
+        {
+            "name": "🦄Gather",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/Gather"
+        },
+
+        {
+            "name": "🦄mytv",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/MyTV"
+        },
+
        {
             "name": "🦄港台",
             "type": 0,
             "ua": "okhttp",
             "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
+        },
+
+       {
+            "name": "🦄港奥台国际",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv123.vvvv.ee/tv.m3u"
+        },
+
+        {
+            "name": "🦄74源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://im5k.fun/vip.m3u"
         },
 
         {
@@ -79,54 +127,25 @@
             "url": "http://ezc.xtvantsc.xyz/欢乐看.txt"
         },
 
-
-   {
-            "name": "🦄安博",
+        {
+            "name": "🦄4GTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/安博"
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
         },
 
         {
-            "name": "🦄港台大陆频道",
+            "name": "🦄台湾立视(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
         },
 
         {
-            "name": "🦄台湾频道",
+            "name": "🦄jackTV(梯子)",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://epg.pw/test_channels_taiwan.m3u"
-             },   
-
-         {
-            "name": "🦄Gather",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://tv.iill.top/m3u/Gather"
-        },
-
-        {
-            "name": "🦄iptvpro直播",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro.txt"
-        },
-
-       {
-            "name": "🦄港台",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
-        },
-
-       {
-            "name": "🦄4GTV港台",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "http://xtvantsc.xyz/4gtv.txt"
+            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
 
         {
@@ -137,46 +156,49 @@
         },
 
         {
-            "name": "🦄jackTV",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
-        },
-
-        {
-            "name": "🦄anboxtv斯玛特",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://tv.anboxtv.online/tv"
-        },
-
-         {
-            "name": "🦄catvod斯玛特",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "http://live.catvod.com/tv.m3u"
-        },
-
-        {
-            "name": "🦄全球直播",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "http://tv.anbox.ip-ddns.com/live"
-        },
-
-        {
-            "name": "🦄anboxtv斯玛特",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://tv.anboxtv.online/tv"
-        },
-
-        {
             "name": "🦄新加坡频道(梯子新加坡节点)",
             "type": 0,
             "ua": "okhttp",
             "url": "http://xtvantsc.xyz/新加坡.m3u"
         },
+
+        {
+            "name": "🦄iptvpro🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro.txt"
+        },
+
+        {
+            "name": "🦄安博(梯子)🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/安博"
+        },
+
+        {
+            "name": "🦄港台大陆频道🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
+        },
+
+        {
+            "name": "🦄港台大陆频道无18",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容"
+        },
+
+        {
+            "name": "🦄xxx视频资源🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
+        },
+
+
+
 
  {
       "name": "🔕歐華167🔓🔓VPN",
@@ -194,20 +216,25 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "台灣CAT",
-      "url": "https://raw.githubusercontent.com/Hsudavid/app/main/tv.m3u",
+      "name": "台灣543",
+      "url": "http://iptv543.com/543.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
     {
-      "name": "MTVS",
-      "url": "https://raw.githubusercontent.com/Hsudavid/app/main/MTVS.txt"
+      "name": "備用線路",
+      "url": "https://iptv543.com/smt1.m3u"
     },
 
     {
-      "name": "直播",
-      "url": "http://github.com/cm851228/my51228888/raw/refs/heads/main/js.txt"
+      "name": "日本頻道",
+      "url": "https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u"
+    },
+
+    {
+      "name": "韓團MTVS",
+      "url": "https://raw.githubusercontent.com/Hsudavid/app/main/MTVS.txt"
     },
 
    {
@@ -216,8 +243,8 @@
     },
 
     {
-      "name": "冰茶tv",
-      "url": "https://bc.188766.xyz/?ip=&mima=bingcha1130"
+      "name": "FYTV",
+      "url": "http://iptv.4666888.xyz/FYTV.txt"
     },
     {
       "name": "綜合",
@@ -225,7 +252,7 @@
     },
 
     {
-      "name": "綜合jade_box",
+      "name": "喵TV",
       "url": "https://raw.githubusercontent.com/mlabalabala/resource/refs/heads/main/jade_box/boxlive.txt"
     },
 
@@ -234,27 +261,58 @@
       "url": "https://live.tv.darwinchow.com/sub/02Rmp7XOozfgFiaSPkRbxv2Ud5Kn8V"
     },
 
-    {
-      "name": "iphone",
-      "url": "https://raw.githubusercontent.com/cm851228/my51228888/refs/heads/main/iphone2.txt"
-    },
+       {
+            "name": "MyTV",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/MyTV",
+            "ua": "okhttp/5.0.0-alpha.14",
+            "timeout": 30,
+            "playerType": 2
+        },
 
-  {
-      "name": "🐅mytv",
-      "type": 0,
-      "url": "http://xtvantsc.xyz/mytv.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+{
+            "name": "IPTV2026",
+            "type": 0,
+            "url": "https://iptv.vrsmarter.workers.dev",
+            "timeout": 30,
+            "playerType": 2,
+            "ua": "okhttp",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
 
-   {
-  "name": "❎SMT 66--py",
-  "type": 3,
-  "api": "https://od.lk/s/NjFfMTAyODU0NTUzXw/smt66.py",
-  "ext": "http://127.0.0.1:8080"
-   },
+
+{
+            "name": "Web118",
+            "type": 0,
+            "url": "https://web.anbox118.dpdns.org/playlist.m3u8.txt",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        }, 
+{
+            "name": "Anbox直播",
+            "type": 0,
+            "url": "http://tv.anbox.ip-ddns.com/live",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png",
+            "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
+            
+        },
+
+{
+            "name": "Anbox备",
+            "type": 0,
+            "url": "https://tv.anboxtv.online/live",
+            "playerType": 2,
+            "ua": "okhttp",
+            "timeout": 30,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png",
+            "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
+
+        },
 
    {
      "name": "♌ 4GTV",
@@ -265,11 +323,11 @@
      "logo": "https://epg.112114.xyz/logo/{name}.png"
    }, 
 
-
     {
       "name": "四季",
       "url": "https://raw.githubusercontent.com/van8866/-iptv/refs/heads/main/4gtv.m3u"
     },
+
     {
       "name": "💔四季2💔",
       "url": "https://raw.githubusercontent.com/SWCZ56/abszm-zby/refs/heads/main/4gtv.m3u"
