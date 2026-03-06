@@ -26,6 +26,24 @@
         "version": "3.7.3"
       },
       {
+        "name": "安卓4专版",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "2.5.0"
+      },
+      {
+        "name": "安卓5专版",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.7.2"
+      },
+      {
+        "name": "安卓5专版",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.7.2"
+      },
+      {
         "name": "电视端(64位)",
         "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-3.7.3.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
@@ -100,6 +118,35 @@
         "url": "https://gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
+      }
+    ]
+  },
+  {
+    "name": "影视仓",
+    "list": [
+      {
+        "name": "手机端",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsjb_3.2.8.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.2.8"
+      },
+      {
+        "name": "电视端(安卓4)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4ysc3.0.6.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.0.6"
+      },
+      {
+        "name": "电视端",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscdsb_6.1.9.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "6.1.9"
+      },
+      {
+        "name": "电视端(海信)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/ysc-6.1.7-32w_dshxb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "6.1.7"
       }
     ]
   }
