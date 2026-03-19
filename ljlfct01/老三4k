@@ -83,7 +83,7 @@
 
     {
       "key": "drpy_js_豆瓣",
-      "name": "豆瓣",
+      "name": "👑豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
@@ -91,7 +91,7 @@
     },
     {
       "key": "设置",
-      "name": "网弹|设置",
+      "name": "👑网弹|设置",
       "type": 3,
       "api": "csp_Config",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
@@ -107,12 +107,14 @@
       "key": "lvdou",
       "name": "👑 臻彩┃SVIP",
       "type": 3,
-      "api": "http://202.189.11.83:8866/asdasd/py/%E8%A7%82%E5%BD%B1.py",
+      "api": "csp_AppYsV2",
+      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
-   
+      "filterable": 1,
+      "ext": "http://cms.9513tv.vip/api.php/app/"
     },
+
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -144,14 +146,14 @@
     },
  {
       "key": "哔哩哔哩",
-      "name": "💖哔哩哔哩4k",
+      "name": "👑哔哩┃SVIP",
       "type": 3,
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
       "key": "景天",
-      "name": "景天|4K弹幕",
+      "name": "👑景天|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
@@ -159,16 +161,23 @@
     },
     {
       "key": "茂茂",
-      "name": "茂茂|4K弹幕",
+      "name": "👑茂茂|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-
+    {
+      "key": "mihdr",
+      "name": "Pan - 1 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
+    },
 
     {
-      "key": "🚀 火狐 | T4",
+      "key": "👑 火狐 | T4",
       "name": "🚀 火狐 | T4",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
@@ -201,68 +210,28 @@
         "日本动漫",
         "欧美动漫"
       ]
-    },
-
-    {
-      "key": "测试",
-      "name": "应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly94aWFvaHViYW4uY24tbmIxLnJhaW5zMy5jb20vbWFyay5qc29u"
     }
+
 
   ],
   "parses": [
+
     {
       "name": "极速",
-      "type": 1,
-      "url": "https://nm.4688888.xyz/niuma.php?key=rlvpcW7JQzwe21iG&url="
-   
-    },
-    {
-      "name": "极速2",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl="
     },
     {
-      "name": "极速3",
+      "name": "极速2",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=13&appid=10000&videoUrl="
     },
     {
-      "name": "极速4",
+      "name": "极速3",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
-    },
-   {
-      "name": "云",
-      "type": 0,
-      "url": "http://119.91.10.69:168/api/index?parsesId=3248&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
     }
+
   ],
   "rules": [
     {
