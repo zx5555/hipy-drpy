@@ -891,19 +891,6 @@
             "timeout": 60
         },
         {
-            "key": "AList",
-            "name": "🍊AList合集",
-            "type": 3,
-            "api": "csp_Alist",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
-        },
-        {
             "key": "荐片",
             "name": "🐭荐片P2P",
             "api": "csp_JianPian",
@@ -1517,7 +1504,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "http://110.42.67.221:8009",
+                "url": "http://110.42.67.221:8002",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg",
                 "init": "initV122",
@@ -2254,20 +2241,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "花猪",
-            "name": "🐗花猪影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
-                "dataKey": "h5w3d6g1j9s2h3f6",
-                "dataIv": "h5w3d6g1j9s2h3f6",
-                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -5141,19 +5114,6 @@
             }
         },
         {
-            "key": "驿站",
-            "name": "🍊驿站影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
-                "dataKey": "dyyztvapiappyyds",
-                "dataIv": "dyyztvapiappyyds"
-            }
-        },
-        {
             "key": "缘梦",
             "name": "🍊缘梦影视",
             "type": 3,
@@ -5179,19 +5139,6 @@
             }
         },
         {
-            "key": "七壹",
-            "name": "💰七壹影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://qiyiys.cc",
-                "dataKey": "45452893929B40D9",
-                "dataIv": "45452893929B40D9"
-            }
-        },
-        {
             "key": "优兔",
             "name": "🐇优兔影视",
             "type": 3,
@@ -5209,9 +5156,9 @@
             "key": "王子",
             "name": "🤴王子影视",
             "type": 3,
-            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
+            "api": "csp_AppGet",
             "ext": {
                 "url": "https://app.95112475.xyz",
                 "dataKey": "5a9w6x58dsq6z3a6",
@@ -24688,10 +24635,27 @@
             "name": "🐤小小影院",
             "type": 3,
             "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 120,
             "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
+                "作者": "🍊小橙子/20260407",
+                "站名": "小小影院",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=b03d2e1f4d20f7364d85be7754cf9df4；； PHPSESSID=c5oc0bb2r0rlqcirn0m5uug1t2&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
+                "图片代理": "0",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
+                "免嗅": "1",
+                "过滤词": "",
                 "主页url": "https://www.bakexing.com/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://www.bakexing.com/xxshow/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
                 "二次截取": "",
                 "数组": "<div class=\"img-box cover-md&&</div>",
                 "标题": "alt=\"&&\"",
@@ -24706,16 +24670,41 @@
                 "主演": "主演：&&</div>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "<div class=\"swiper-wrapper\">&&</div>",
-                "线路标题": ">&&</a>",
-                "播放二次截取": "",
+                "线路数组": "\"swiper-slide&&/a>",
+                "线路标题": ">&&<",
+                "播放二次截取": "tagContent&&title-box[替换:with-more>>plays-more]",
                 "播放数组": "id=\"playsx&&plays-more",
                 "倒序": "0",
                 "播放列表": "<a&&/a>",
                 "播放标题": ">&&<",
                 "播放链接": "href=\"&&\"",
-                "分类url": "https://www.bakexing.com/xxshow/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
+                "解析": "",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "跳转解析": "",
+                "搜索请求头": "User-Agent$MOBILE_UA",
+                "搜索url": "https://www.bakexing.com/xxsearch/{wd}----------{pg}---.html",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "<div class=\"img-box cover-md&&</div>",
+                "搜索标题": "alt=\"&&\"",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索副标题": "<span class=\"label text-truncate\">&&</span>",
+                "搜索链接": "href=\"&&\"",
+                "筛选": "1",
+                "类型": "",
+                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
+                "剧情值": "*",
+                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
+                "地区值": "*",
+                "年份": "1950-2026",
+                "年份值": "*",
+                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
+                "语言值": "*",
+                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+                "字母值": "*",
+                "排序": "时间&人气&评分",
+                "排序值": "time&hits&score"
             }
         },
         {
@@ -36012,18 +36001,6 @@
             }
         },
         {
-            "key": "元咲动漫",
-            "name": "🤣元咲动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://cic.aicg.fun",
-                "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u"
-            }
-        },
-        {
             "key": "番薯动漫",
             "name": "🥔番薯动漫",
             "type": 3,
@@ -36070,25 +36047,6 @@
                 "dataKey": "qkxnwkfjwpcnwycl",
                 "dataIv": "qkxnwkfjwpcnwycl"
             }
-        },
-        {
-            "key": "米饭动漫",
-            "name": "🍛米饭动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://get.mymifun.com",
-                "dataKey": "GETMIFUNGEIMIFUN",
-                "dataIv": "GETMIFUNGEIMIFUN"
-            }
-        },
-        {
-            "key": "樱花动漫",
-            "name": "🌸樱花动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/樱花动漫.json"
         },
         {
             "key": "巴士动漫",
@@ -36508,7 +36466,7 @@
             }
         },
         {
-            "key": "夸克云盘",
+            "key": "夸克网盘",
             "name": "🍊我的夸克",
             "type": 3,
             "api": "csp_PanQuark",
@@ -36521,10 +36479,10 @@
             }
         },
         {
-            "key": "UC云盘",
+            "key": "UC网盘",
             "name": "🍊我的UC",
             "type": 3,
-            "api": "csp_PanUc",
+            "api": "csp_PanUC",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -36534,10 +36492,10 @@
             }
         },
         {
-            "key": "百度云盘",
+            "key": "百度网盘",
             "name": "🍊我的百度",
             "type": 3,
-            "api": "csp_PanBaiDu",
+            "api": "csp_PanBaidu",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
