@@ -1,5 +1,5 @@
 https://m3u.ibert.me/fmml_ipv6.m3u
-https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.m3u
+
 https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.m3u
 https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
 https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u
