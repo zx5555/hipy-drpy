@@ -189,6 +189,16 @@
       }
     },
     {
+      "key": "DB",
+      "name": "☘️杜比┃4K☘️",
+      "type": 4,
+      "api": "http://8.146.205.47:6125/fl?fl=cid=2pg=1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
       "key": "ZX",
       "name": "☘️ZX┃4K☘️",
       "type": 4,
