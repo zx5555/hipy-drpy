@@ -1261,13 +1261,6 @@
             }
         },
         {
-            "key": "聚搜2",
-            "name": "🚗JUSOU影视",
-            "type": 3,
-            "api": "./py/JUSOU.py",
-            "ext": "http://118.89.203.120:8365/"
-        },
-        {
             "key": "巧技2",
             "name": "🔍搜艘影视",
             "type": 3,
@@ -1592,17 +1585,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "猎手影视",
-            "name": "🦁猎手影院",
-            "type": 3,
-            "api": "./py/猎手影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
         },
         {
             "key": "新剧",
@@ -2626,6 +2608,12 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
+        },
+        {
+            "key": "独播影视",
+            "name": "🍊独播影视",
+            "type": 3,
+            "api": "csp_Duboku"
         },
         {
             "key": "厂长影视",
