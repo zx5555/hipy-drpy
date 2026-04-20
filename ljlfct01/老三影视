@@ -2,41 +2,59 @@
   "spider": "http://cdn.qiaoji8.com/fix260410.jar;md5;1069df603996411da45b18bc718959ca",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "live",
-          "urls": [
-            "proxy://do=live&type=txt&ext="
-          ]
-        }
-      ]
+
+ {
+      "name": "🐅猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
+
+
     {
-      "key": "虎斑",
-      "name": "☘️虎斑☘️",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E8%99%8E%E6%96%91[%E7%9B%98]?pwd=50721480be241243&filter=true",
+      "key": "JD",
+      "name": "热播4K网盘",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1
+      "ext": "http://qp.69mini.com/api.php/app/"
+    },
+
+
+
+{
+      "key": "官方4K专线",
+      "name": "🚀┃小苹果专线",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.izhuiju.top/api.php/app/"
     },
     {
       "key": "ZX",
       "name": "☘️ZX┃4K☘️",
       "type": 4,
       "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
-     "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
     },
- 
+
+
+
     {
       "key": "天天",
       "name": "天天┃高峰期用不了就点我换源或者搜索",
@@ -314,20 +332,11 @@
     }
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+
     {
       "name": "巧技",
       "type": 1,
-      "url": "https://zy.qiaoji8.com/neibu.php?url=",
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1992&url=",
       "ext": {
         "flag": [
           "qq",
@@ -351,57 +360,8 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    },
-    {
-      "name": "巧技二",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905",
-          "NetFilx"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "巧技三",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/xiafan.php?url=",
-      "ext": {
-        "flag": [
-          "QD4K",
-          "iyf",
-          "duanju",
-          "gzcj",
-          "GTV",
-          "GZYS",
-          "weggz",
-          "Ace"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
     }
+
   ],
   "flags": [
     "youku",
