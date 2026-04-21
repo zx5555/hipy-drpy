@@ -60,21 +60,12 @@
     }
   ],
   "sites": [
-
-  
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
- {
-      "key": "哔哩哔哩",
-      "name": "👑哔哩┃SVIP",
-      "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
       "key": "guoguo",
@@ -83,27 +74,131 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/mg.js"
     },
+    {
+      "key": "哔哩视频",
+      "name": "哔哩-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
+    },
+    {
+      "key": "蓝光",
+      "name": "综合-（臻彩视界4K）",
+      "type": 2,
+      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "少儿",
+        "短剧",
+        "学堂",
+        "其他综艺",
+        "纪录片"
+      ]
+    },
         {
             "key": "lvdou",
-            "name": "Pan | 来自全能（已停）",
+            "name": "全能-（臻彩视界4K）",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://210.16.170.113:8999/api.php/app/"
-        }
-
+        },
+    {
+      "key": "mihdr",
+      "name": "Pan - 1 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=mihdr###mihdr"
+    },
+    {
+      "key": "shandian",
+      "name": "Pan - 2 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=shandian###shandian"
+    },
+    {
+      "key": "huban",
+      "name": "Pan - 3 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=huban###huban"
+    },
+    {
+      "key": "labi3",
+      "name": "Pan - 4 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=labi3###labi3"
+    },
+     {
+      "key": "muou",
+      "name": "Pan - 5 | 免扫4K",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+      "api": "csp_ZC4K",
+      "ext": "http://116.62.133.86:56681/T4/T6/api2.php?site=muou###muou"
+    },
+    {
+      "key": "Zwqf",
+      "name": "醉挽｜清风",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
+      "searchable": 1,
+      "ext": {
+        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
+        "token": "xiaoman666"
+      }
+    },
+    {
+      "key": "xmwq",
+      "name": "小满｜万全",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
+      "searchable": 1,
+      "ext": {
+        "url": "http://我不是.摸鱼儿.com/api/feng/xiaoman.php",
+        "token": "xiaoman666"
+      }
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🍉瓜子┃3K",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
 
   ],
   "parses": [
      {
       "name": "4k直连1",
       "type": 1,
+      "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
+    },
+     {
+      "name": "4k直连2",
+      "type": 1,
       "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
     },
     {
-      "name": "4k直连2",
+      "name": "4k直连3",
       "type": 1,
       "url": "http://125.208.22.184:6019/api/index?parsesId=1&appid=10000&videoUrl="
     }
