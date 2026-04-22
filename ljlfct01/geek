@@ -5,6 +5,7 @@
 
   ],
   "sites": [
+
     {
       "key": "蓝光",
       "name": "综合-（臻彩视界4K）",
@@ -37,7 +38,7 @@
       "filterable": 1,
       "ext": "http://qp.69mini.com/api.php/app/"
     },
-        {
+    {
       "key": "Zwqf",
       "name": "醉挽｜清风",
       "type": 3,
@@ -82,21 +83,13 @@
 
   ],
   "parses": [
+
      {
-      "name": "4k直连1",
-      "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1992&url="
-    },
-     {
-      "name": "4k直连2",
+      "name": "4k直连",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
-    },
-    {
-      "name": "4k直连3",
-      "type": 1,
-      "url": "http://116.62.133.86:56682/api/?key=oDE5dyA0Xosa3OtRzV&url="
     }
+
   ],
   "doh": [],
   "hosts": [
