@@ -74,15 +74,15 @@
       "name": "景天|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;771eb6389af75bae417ef8834df65a8a",
-      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+      "jar": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/spider.jar",
+      "ext": "https://vip.dytt-img.com/upload/vod/20260118-1/fe2907e5e81876cffe93f85615c4f7c2.webp"
     },
     {
       "key": "茂茂",
       "name": "茂茂|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;771eb6389af75bae417ef8834df65a8a",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;208778a7c54dabeaf9864f2a595513ac",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
     {
@@ -129,8 +129,14 @@
       "type": 1,
       "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
     },
+
      {
       "name": "4k直连2",
+      "type": 1,
+      "url": "http://mlwl.7766.org:55/api/?key=rzkeh3pK5FnTtEzNCW&url="
+    },
+     {
+      "name": "4k直连3",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
     }
