@@ -21,14 +21,14 @@
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
     },
     {
       "key": "guoguo",
       "name": "芒芒-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
     },
     {
       "key": "哔哩视频",
@@ -111,6 +111,21 @@
       }
     },
     {
+      "key": "端木app",
+      "name": "🎬端木┃秒播",
+      "type": 3,
+      "playerType": 2,
+      "api": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/duanmu.js",
+      "ext": {
+        "host": "http://154.219.117.219:8080/dev_webvip",
+        "NBY": [
+          "http://43.248.100.143:6888/api/index.php?key=fvMh1lGDYHrnvkUBdM&url=",
+          "https://api.nbyjson.top:7788/api/?key=MxbRUfgjyMy25MGhJQ&url=",
+          "https://api.nbyjson.top:7788/api/?key=YD8ky98dl5xbCVeEZV&url="
+        ]
+      }
+    },
+    {
       "key": "祯映",
       "name": "🍄祯映┃app",
       "type": 3,
@@ -152,23 +167,9 @@
       "type": 3,
       "url": "Web"
     },
+ 
      {
-      "name": "4k直连1",
-      "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
-    },
-   {
-      "name": "4k直连2",
-      "type": 1,
-      "url": "http://jiexi.fc8001.top/IDcSsLXyFwiZyBJT.php?url="
-    },
-     {
-      "name": "4k直连3",
-      "type": 1,
-      "url": "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url="
-    },
-     {
-      "name": "4k直连4",
+      "name": "极速4k",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
     }
