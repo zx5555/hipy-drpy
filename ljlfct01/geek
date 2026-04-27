@@ -1,30 +1,22 @@
 {
-"spider": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
+"spider": "",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
-
+    {
+      "name": "🐅昭昭TV",
+      "type": 0,
+      "url": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/auth/?srf=1/live",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    }
   ],
   "sites": [
 
 
-    {
-      "key": "瓜子影视",
-      "name": "🌀瓜子┃3K",
-      "type": 3,
-      "api": "csp_Gz360",
-      "jar": "http://183.136.134.152:250/xsxs(1).jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "天天",
-      "name": "🌀天天",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 2,
-      "ext": "7lj763gg0939791h1l3888jig44gi291li"
-    }
+  
+
 
   ],
   "parses": [
