@@ -1271,7 +1271,11 @@
  
   ],
   "parses": [
-
+     {
+      "name": "极速4k",
+      "type": 1,
+      "url": "https://co4k.1ljx.com:32010/api/?key=7899dafb-0b75-4ee9-8944-6c23a7827791&url="
+    }
   ],
   "flags": [
     "youku",
@@ -1309,6 +1313,13 @@
     "哔 哩 哔 哩"
   ],
   "lives": [
+    {
+      "name": "野马影视🇹🇭港澳台",
+      "type": 0,
+      "url": "https://t.freetv.fun/m3u/playlist_all_original.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "味精直播",
       "type": 0,
