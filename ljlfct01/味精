@@ -2,12 +2,41 @@
 
   "sites": [
     {
-      "key": "寻川",
-      "name": "寻川｜4K",
-      "api": "csp_AppNox",
-      "jar": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "藤藤-（臻彩视界4K）",
       "type": 3,
-      "ext": "AZwKLTGJseDoHAfRGZgidaVzBXHTFWKNP9y5+JMTNtMt+GZOYqXrg+BpTi30W2daF1BshLlNfT2WFEamYHeH16Ynudj2EiVK9+AWISKGdecnTJeGgFG0CYit/EisqgMyWohTap73SM+/gaBSL+oNwVgnGJ/8BuyMlAnuxbtcJWGDFUdKzdaM6Nn0gjj4jS9R+e6TH49uCDIVY0lt6iTnYMXmwq4wOWpE/gZUZiCk23d0tPI/V0CuL+Hl5ITXvfkLx1+H1XZdm6C3pIUJMwb4gZ95W2rrkhX4d3Yrws1eld1nXu5ejRbrLHype4LnZuwHpo7iq+vUT0HfMEkJnFtuBOT6nOw7xKLNWXSJC7PmJDDIr8yabmtdnIzeI6LOJPtmD+w4drvqJpty/1YjxXfFUA19qwnAB7iuLLdeKmeaYKecLstYv7+bEY6vFibImX79eOtrlUUEaglkmuqWqmShFYv/YeuZ2LtYb9eWmDBelBIXhFHXsxYAk8+rNB9AMVVpGhisUIcAA75ha+5mnGVtALRsAW3BFIhy0GiQ9vOzeWwC9osf8YMQ9vfyskzhUFpvT1EhJTGiOsq8vYBi8t+FDRUC1z+13AbyTGk9yDgx74fMHYg9pexhwkotIP8oSDr19Xy4q0Gz6QWjjDxtDlAK3qH5erFmOU8uzdckAjgHxwZ7tfvZXUqQcLz4ICIqgN3WxpAMD0Jnenifi852lCB5HDmaJ6lLpmlr8eGr0OVXVNHRS5mttbisDkbrz5O4wlglsfwX1xzW8namjlc15Kfv/24xFjlzQk+r4fOE4knXw38VsFTMZb+Yz1ODPIagwmOQt9xTHdHefU+FML6MTrBi0hHfW0ooVITGfniCerhOvXW73eZfABNkQaj43UQ37Xo9zFAa8INzYeGlGomHPAQLaH+agFZsM3dL+RgPDL8PO6rpp7I6rKCv5rxtz1rDGKEfWuT4YaJL2aoDjZY28vjxbFDpADFKjlK7wDeeGjB7kR8BDgFtexk3HcdNmAVD4SweeQ=="
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "芒芒-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
+    },
+    {
+      "key": "哔哩视频",
+      "name": "哔哩-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
+    },
+   {
+      "key": "金牌",
+      "name": "♨️金牌｜4K线路",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://qj4.catbb.xyz",
+        "dataKey": "eecbio48dsq13kkk",
+        "dataIv": "eecbio48dsq13kkk",
+        "search": "searchList4",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
     },
     {
       "key": "4K影视",
@@ -1278,10 +1307,31 @@
  
   ],
   "parses": [
-     {
+    {
+      "name": "WEB解析",
+      "type": 0,
+      "url": ""
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+      {
       "name": "极速4k",
       "type": 1,
-      "url": "https://co4k.1ljx.com:32010/api/?key=7899dafb-0b75-4ee9-8944-6c23a7827791&url="
+      "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
+    },
+  
+     {
+      "name": "极速4k1",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/OShStfcsWZhzDTap.php?url="
     }
   ],
   "flags": [
