@@ -37,6 +37,7 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
+
    {
       "key": "星空",
       "name": "🍿星空┃4K",
@@ -166,11 +167,16 @@
       "type": 3,
       "url": "Web"
     },
- 
-     {
+      {
       "name": "极速4k",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
+    },
+  
+     {
+      "name": "极速4k1",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/OShStfcsWZhzDTap.php?url="
     }
   
   ],
