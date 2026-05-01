@@ -129,26 +129,6 @@
         "海外动漫"
          ]
         },
-        {"key": "csp_Kugou",
-"name": "🐬酷狗音乐｜音乐",
-"type": 3,
-"api": "csp_Kugou",
-"jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
-"playerType": 2,
-"ext": {"classes": [{"type_name": "酷狗",
-"type_id": "kugou"}]}}, 
-    {
-			"key": "网易云音乐",
-			"name": "🐬网易云｜音乐",
-			"type": 3,
-			"api": "https://xn--fjq53n.xyz/Ting/yinyue/网易云音乐.py"
-		},
-		{
-			"key": "网易云音乐1",
-			"name": "🐬网易云1｜音乐",
-			"type": 3,
-			"api": "https://xn--fjq53n.xyz/Ting/yinyue/网易云音乐1.py"
-		},
         {
              "key": "hipy_js_酷我听书[听]",
              "name": "🐬酷我听书｜听书",
@@ -449,7 +429,13 @@
         "static-mozai.4gtv.tv"
     ],
 "lives": [
-        {
+         {
+            "name": "🐬各大直播源合集",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt"
+        }
+         {
             "name": "🐬地方直播",
             "type": 0,
             "ua": "okhttp",
@@ -480,10 +466,16 @@
             "url": "https://iptv.yang-1989.eu.org/m3u/Gather.m3u"
         },
         {
-            "name": "🐬mytv",
+            "name": "🐬新港台频道",
             "type": 0,
             "ua": "okhttp",
             "url": "https://cdn.qd.je/live.m3u"
+        },
+        {
+            "name": "🐬Mytv2",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://iptv.707626.xyz/sub/K5hMyUOy52A1rzUvV6s5pbADasExbi7x/playlist.m3u"
         },
          {
             "name": "🐬港台",
