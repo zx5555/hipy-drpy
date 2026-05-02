@@ -1,5 +1,216 @@
-globalThis.vod1 = function (ids) {
-    let html1 = request('https://pbaccess.video.qq.com/trpc.videosearch.mobile_search.MultiTerminalSearch/MbSearch?vplatform=2', {
+// 百万IP池生成器
+globalThis.generateMillionIPs = function() {
+    const ipPool = [];
+
+    // 生成A类地址段 (1.0.0.0 - 126.255.255.255)
+    for (let a = 1; a <= 126; a++) {
+        if (a === 10 || a === 127) continue; // 跳过私有地址和回环
+        // 每个A类段随机选择部分B类地址
+        if (Math.random() < 0.15) {
+            for (let b = 0; b <= 255; b++) {
+                // 每个B类段随机选择部分C类地址
+                if (Math.random() < 0.02) {
+                    for (let c = 0; c <= 255; c++) {
+                        // 每个C类段随机选择部分D类地址
+                        if (Math.random() < 0.01) {
+                            const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
+                            const port = [80, 8080, 3128, 443, 8443, 8888, 9000][Math.floor(Math.random() * 7)];
+                            ipPool.push(`http://${ip}:${port}`);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // 生成B类地址段 (128.0.0.0 - 191.255.255.255)
+    for (let a = 128; a <= 191; a++) {
+        for (let b = 0; b <= 255; b++) {
+            if (a === 172 && b >= 16 && b <= 31) continue; // 跳过私有地址
+            if (Math.random() < 0.08) {
+                for (let c = 0; c <= 255; c++) {
+                    if (Math.random() < 0.01) {
+                        const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
+                        const port = [80, 8080, 3128, 443, 8443, 8888, 9000][Math.floor(Math.random() * 7)];
+                        ipPool.push(`http://${ip}:${port}`);
+                    }
+                }
+            }
+        }
+    }
+    
+    // 生成C类地址段 (192.0.0.0 - 223.255.255.255)
+    for (let a = 192; a <= 223; a++) {
+        for (let b = 0; b <= 255; b++) {
+            if (a === 192 && b === 168) continue; // 跳过私有地址
+            if (a === 198 && b >= 18 && b <= 19) continue; // 跳过测试地址
+            if (Math.random() < 0.05) {
+                for (let c = 0; c <= 255; c++) {
+                    if (Math.random() < 0.005) {
+                        const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
+                        const port = [80, 8080, 3128, 443, 8443, 8888, 9000][Math.floor(Math.random() * 7)];
+                        ipPool.push(`http://${ip}:${port}`);
+                    }
+                }
+            }
+        }
+    }
+    
+    console.log(`生成了 ${ipPool.length} 个随机IP地址`);
+    return ipPool;
+};
+
+// 动态IP池管理器
+globalThis.dynamicIPPool = {
+    ipPool: [],
+    lastRefresh: 0,
+    refreshInterval: 3600000, // 1小时刷新一次
+    
+    getIPs: function() {
+        const now = Date.now();
+        if (this.ipPool.length === 0 || now - this.lastRefresh > this.refreshInterval) {
+            console.log("刷新IP池...");
+            this.ipPool = generateMillionIPs();
+            this.lastRefresh = now;
+        }
+        return this.ipPool;
+    },
+    
+    getRandomIP: function() {
+        const pool = this.getIPs();
+        return pool[Math.floor(Math.random() * pool.length)];
+    },
+    
+    // 获取一批不同的IP
+    getBatchIPs: function(count) {
+        const pool = this.getIPs();
+        const selected = [];
+        const usedIndices = new Set();
+        
+        for (let i = 0; i < count && i < pool.length; i++) {
+            let index;
+            do {
+                index = Math.floor(Math.random() * pool.length);
+            } while (usedIndices.has(index) && usedIndices.size < pool.length);
+            
+            usedIndices.add(index);
+            selected.push(pool[index]);
+        }
+        
+        return selected;
+    }
+};
+
+// 增强的代理IP池（包含静态和动态IP）
+globalThis.proxyPool = [
+    'http://120.46.190.255:8080',
+    'http://112.74.105.128:8080', 
+    'http://183.247.211.43:8080',
+    'http://117.85.105.170:8080',
+    'http://121.232.148.241:8080',
+    'http://118.212.104.207:8080',
+    'http://117.87.178.123:8080',
+    'http://183.166.102.23:8080',
+    'http://114.239.1.155:8080',
+    'http://123.163.117.98:8080'
+];
+
+// 解析接口池（整合所有解析接口，去重，包含原lazy里的所有接口）
+globalThis.parseApiPool = [
+    "https://fanghu.52xiaobai.cn/qq4k/qq4k.php?url=",
+    "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url=",
+    "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+    "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url=",
+    "https://j.69mini.com/api/?key=3DkoNDlBsA1Re0uTnr&url="
+];
+
+
+// 智能获取随机代理（优先动态IP，失败后使用静态IP）
+globalThis.getRandomProxy = function() {
+    // 80%概率使用动态IP，20%概率使用静态IP
+    if (Math.random() < 0.8) {
+        return dynamicIPPool.getRandomIP();
+    } else {
+        return proxyPool[Math.floor(Math.random() * proxyPool.length)];
+    }
+};
+
+// 获取解析接口
+globalThis.getParseApi = function() {
+    return parseApiPool[Math.floor(Math.random() * parseApiPool.length)];
+};
+
+// 增强的带代理请求函数
+globalThis.requestWithProxy = function(url, options, parseJson) {
+    const maxRetries = 3;
+    
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
+        try {
+            let proxyUrl = getRandomProxy();
+            console.log(`第${attempt + 1}次尝试使用代理: ${proxyUrl}`);
+            
+            // 生成随机User-Agent
+            const userAgents = [
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+                'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1',
+                'Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36'
+            ];
+            const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
+            
+            // 生成随机IP地址用于伪造头信息
+            const fakeIP = generateFakeIP();
+            
+            const requestOptions = {
+                ...options,
+                proxy: proxyUrl,
+                timeout: 10000,
+                headers: {
+                    ...options?.headers,
+                    'User-Agent': randomUserAgent,
+                    'X-Forwarded-For': fakeIP,
+                    'X-Real-IP': fakeIP,
+                    'CF-Connecting-IP': fakeIP,
+                    'Client-IP': fakeIP
+                }
+            };
+            
+            let result = request(url, requestOptions, parseJson);
+            console.log(`第${attempt + 1}次代理请求成功`);
+            return result;
+        } catch (e) {
+            console.log(`第${attempt + 1}次代理请求失败: ${e.message}`);
+            if (attempt === maxRetries - 1) {
+                console.log("所有代理尝试失败，使用直连");
+                // 所有代理失败时使用直连
+                return request(url, options, parseJson);
+            }
+        }
+    }
+};
+
+// 生成伪造IP地址的函数
+globalThis.generateFakeIP = function() {
+    // 避免私有地址段
+    let a, b, c, d;
+    do {
+        a = Math.floor(Math.random() * 223) + 1;
+        b = Math.floor(Math.random() * 256);
+        c = Math.floor(Math.random() * 256);
+        d = Math.floor(Math.random() * 254) + 1;
+    } while (
+        a === 10 || 
+        (a === 172 && b >= 16 && b <= 31) ||
+        (a === 192 && b === 168) ||
+        a === 127
+    );
+    
+    return `${a}.${b}.${c}.${d}`;
+};
+
+globalThis.vod1 = function(ids) {
+    let html1 = requestWithProxy('https://pbaccess.video.qq.com/trpc.videosearch.mobile_search.MultiTerminalSearch/MbSearch?vplatform=2', {
         body: {
             "version": "25042201",
             "clientType": 1,
@@ -25,33 +236,29 @@ globalThis.vod1 = function (ids) {
             }
         },
         headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
-    'Content-Type': 'application/json',
-    'origin': 'https://v.qq.com',
-    'referer': 'https://v.qq.com/'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
+            'Content-Type': 'application/json',
+            'origin': 'https://v.qq.com',
+            'referer': 'https://v.qq.com'
         },
         'method': 'POST'
     }, true);
     return html1;
 }
+
 var rule = {
     title: '腾云驾雾[官]',
     host: 'https://v.%71%71.com',
-    // \u0068\u006f\u006d\u0065\u0055\u0072\u006c\u003a\u0020\u0027\u002f\u0078\u002f\u0062\u0075\u002f\u0070\u0061\u0067\u0065\u0073\u0068\u0065\u0065\u0074\u002f\u006c\u0069\u0073\u0074\u003f\u005f\u0061\u006c\u006c\u003d\u0031\u0026\u0061\u0070\u0070\u0065\u006e\u0064\u003d\u0031\u0026\u0063\u0068\u0061\u006e\u006e\u0065\u006c\u003d\u0063\u0068\u006f\u0069\u0063\u0065\u0026\u006c\u0069\u0073\u0074\u0070\u0061\u0067\u0065\u003d\u0031\u0026\u006f\u0066\u0066\u0073\u0065\u0074\u003d\u0030\u0026\u0070\u0061\u0067\u0065\u0073\u0069\u007a\u0065\u003d\u0032\u0031\u0026\u0069\u0061\u0072\u0065\u0061\u003d\u002d\u0031\u0026\u0073\u006f\u0072\u0074\u003d\u0031\u0038',
     homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
     searchUrl: 'https://pbaccess.video.%71%71.com/trpc.videosearch.smartboxServer.HttpRountRecall/Smartbox?query=**&appID=3172&appKey=lGhFIPeD3HsO9xEp&pageNum=(fypage-1)&pageSize=10',
-    searchUrl:'**',
+    searchUrl: '**',
     searchable: 2,
     filterable: 1,
     multi: 1,
-    // url:'/channel/fyclass?listpage=fypage&channel=fyclass&sort=18&_all=1',
     url: '/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
-    // filter_url: 'sort={{fl.sort or 18}}&year={{fl.year}}&pay={{fl.pay}}',
-    // filter_url: 'sort={{fl.sort or 75}}&year={{fl.year}}&pay={{fl.pay}}',
     filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}',
-    // filter: 'H4sIAAAAAAAAA+2UzUrDQBCA32XOEZLUJrGvIj0saaDBNisxBkIJCG3Fi4oepIg3EQoieqiH+vM23Zq+hRuaZLZ4ce9z2/lmd2d2+NgR+H0e+gF0DkdwFGTQgRMeJ2BAxIaSwvrqVnxcyzhlg9PttqjED2c/45cSy8DyIDcavr57q/lBw8XTd/E6qbnT8M3zTFyc72RtC/Jumd+2c8wy7KZ4nxSL5Z9uxHS+Gc+r83sWVp1eVttl4Dluk1h93YubWZVwduplAYuxoFguVp+P/y5om/Z+/YxyqfAW8pbKbeS2yi3kO/ebyE2Fy1nXXBm7DDzknspd5K7KHeSOytvI2+XAugYkKWlD2mhrM+RpSB8OmaNvTsriMEgycofc0XbHZ3HCeUTukDv67vTDQY/MIXO0zelxn5M4JI6mOPkvgswSEpgPAAA=',
     filter: {
         "choice": [{
             "key": "sort",
@@ -680,61 +887,106 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    // class_parse:'.site_channel a;a&&Text;a&&href;channel/(.*)',
     cate_exclude: '会员|游戏|全部',
-    // class_name: '腾讯精选&腾讯电视剧&腾讯电影&腾讯综艺&腾讯动漫&腾讯少儿&腾讯纪录片',
-    // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
- 	class_name: '老三4k臻彩🌸电视剧&老三4k臻彩🌸电影&老三4k臻彩🌸综艺&老三4k臻彩🌸动漫&老三4k臻彩🌸少儿&老三4k臻彩🌸纪录片',
-	class_url: 'tv&movie&variety&cartoon&child&doco',
+    class_name: '🎀老三推荐&臻彩⚡4K电影&臻彩⚡4K电视剧&臻彩⚡4K综艺&臻彩⚡4K动漫&臻彩⚡4K少儿&臻彩⚡4K纪录片',
+    class_url: 'choice&movie&tv&variety&cartoon&child&doco',
     limit: 20,
-    // play_parse:true,
-    // 手动调用解析请求json的url,此lazy不方便
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api="https://fanghu.52xiaobai.cn/qq4k/qq4k.php?url=" + input.split("?")[0];
-            console.log(api);
-            let response = fetch(api, {
-                method: 'get',
-                headers: {
-                    'User-Agent': 'okhttp/3.14.9',
-                    'Content-Type': 'application/x-www-form-urlencoded'
+            let vid = input.split("?")[0];
+            // 核心修改：从全局解析池生成带vid的完整解析接口
+            let apis = parseApiPool.map(api => api + vid);
+            
+            let playUrl = '';
+            let validUrlFound = false;
+            
+            // 为每个解析接口使用不同的代理IP
+            for (let i = 0; i < apis.length; i++) {
+                try {
+                    const currentProxy = getRandomProxy();
+                    console.log(`尝试解析接口 ${i+1}: ${apis[i]} 使用代理: ${currentProxy}`);
+                    
+                    let response = fetch(apis[i], {
+                        method: 'get',
+                        headers: {
+                            'User-Agent': 'okhttp/3.14.9',
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                            'X-Forwarded-For': generateFakeIP(),
+                            'X-Real-IP': generateFakeIP()
+                        },
+                        proxy: currentProxy,
+                        timeout: 8000
+                    });
+                    let data = JSON.parse(response);
+                    
+                    // 屏蔽特定开头的视频地址
+                    if (data.url && data.url.includes("http")) {
+                        if (data.url.startsWith("https://kcxaichat.oss-cn-shenzhen.aliyuncs.com/upload/aipic/2510252155/qm0UmUo6xk") || 
+                            data.url === "https://web.wya6.com/d/super/zhuimi/qfad.mp4" ||
+                            data.url === "http://lie.yuyun4kmaopan.qijiyun.vip/d/ty/524831212564975517/video_250916_000258.mp4") {
+                            console.log("解析接口" + (i+1) + "返回了被屏蔽地址，跳过");
+                            continue;
+                        }
+                        playUrl = data.url;
+                        console.log("使用解析接口" + (i+1) + "成功");
+                        validUrlFound = true;
+                        break; 
+                    }
+                } catch (e) {
+                    console.log("解析接口" + (i+1) + "失败: " + e.message);
+                    // 失败后尝试不使用代理重试一次
+                    try {
+                        console.log("尝试直连解析接口: " + apis[i]);
+                        let response = fetch(apis[i], {
+                            method: 'get',
+                            headers: {
+                                'User-Agent': 'okhttp/3.14.9',
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            timeout: 8000
+                        });
+                        let data = JSON.parse(response);
+                        if (data.url && data.url.includes("http") && 
+                            !data.url.startsWith("https://kcxaichat.oss-cn-shenzhen.aliyuncs.com/upload/aipic/2510252155/qqm0UmUo6xQk") && 
+                            data.url !== "https://web.wya6.com/d/super/zhuimi/qfad.mp4" &&
+                            data.url !== "http://lie.yuyun4kmaopan.qijiyun.vip/d/ty/524831212564975517/video_250916_000258.mp4") {
+                            playUrl = data.url;
+                            console.log("直连解析接口" + (i+1) + "成功");
+                            validUrlFound = true;
+                            break;
+                        }
+                    } catch (e2) {
+                        console.log("直连解析接口" + (i+1) + "也失败: " + e2.message);
+                    }
                 }
-            });
-
-            let bata = JSON.parse(response);
-            log(bata)
-            if (bata.url.includes("http")) {
+            }
+            
+            if (validUrlFound) {
                 input = {
-           header: {
-                    'User-Agent': ""
-                   },
+                    header: {'User-Agent': ""},
                     parse: 0,
-                    url: bata.url,
+                    url: playUrl,
                     jx: 0,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: '' + vid
                 };
-            }else {
-                
+            } else {
                 input = {
-           header: {
-                    'User-Agent': ""
-                   },
+                    header: {'User-Agent': ""},
                     parse: 0,
-                    url: input.split("?")[0],
+                    url: vid,
                     jx: 1,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: '' + vid
                 };
             }
-        } catch {
+        } catch (e) {
+            let vid = input.split("?")[0];
             input = {
-           header: {
-                    'User-Agent': ""
-                   },
+                header: {'User-Agent': ""},
                 parse: 0,
-                url: input.split("?")[0],
+                url: vid,
                 jx: 1,
-                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                danmaku: '' + vid
             };
         }
     }),
@@ -747,7 +999,14 @@ var rule = {
         let video_lists = [];
         let list = [];
         let QZOutputJson;
-        let html = fetch(input, fetch_params);
+        
+        // 使用带代理的请求
+        let html = requestWithProxy(input, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+        });
+        
         let sourceId = /get_playsource/.test(input) ? input.match(/id=(\d*?)&/)[1] : input.split("cid=")[1];
         let cid = sourceId;
         let detailUrl = "https://v.%71%71.com/detail/m/" + cid + ".html";
@@ -774,7 +1033,7 @@ var rule = {
             let indexList = QZOutputJson.PlaylistItem.indexList;
             indexList.forEach(function(it) {
                 let dataUrl = "https://s.video.qq.com/get_playsource?id=" + sourceId + "&plat=2&type=4&data_type=3&range=" + it + "&video_type=10&plname=qq&otype=json";
-                eval(fetch(dataUrl, fetch_params));
+                eval(requestWithProxy(dataUrl, {}));
                 let vdata = QZOutputJson.PlaylistItem.videoPlayList;
                 vdata.forEach(function(item) {
                     d.push({
@@ -794,7 +1053,7 @@ var rule = {
                 let vid = video_lists[0];
                 url = "https://v.qq.com/x/cover/" + cid + "/" + vid + ".html";
                 d.push({
-                    title: "老三4k专属",
+                    title: "在线播放",
                     url: url
                 })
             } else if (video_lists.length > 1) {
@@ -803,7 +1062,7 @@ var rule = {
                 }
                 video_list.forEach(function(it, idex) {
                     let o_url = "https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&union_platform=1&idlist=" + it.join(",");
-                    let o_html = fetch(o_url, fetch_params);
+                    let o_html = requestWithProxy(o_url, {});
                     eval(o_html);
                     QZOutputJson.results.forEach(function(it1) {
                         it1 = it1.fields;
@@ -825,7 +1084,7 @@ var rule = {
         let zp = d.filter(function(it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "老三4k" : "❤️老三4k$$$老三4k";
+        VOD.vod_play_from = yg.length < 1 ? "老三4K" : "老三4K$$$预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function(it) {
@@ -839,7 +1098,7 @@ var rule = {
         pdfa = jsp.pdfa;
         pdfh = jsp.pdfh;
         pd = jsp.pd;
-        let html = request(input);
+        let html = requestWithProxy(input, {});
         let baseList = pdfa(html, "body&&.result_item_v");
         log(baseList.length);
         baseList.forEach(function(it) {
@@ -848,11 +1107,7 @@ var rule = {
             let fromTag = pdfh(it, ".result_source&&Text");
             let score = pdfh(it, ".figure_info&&Text");
             let content = pdfh(it, ".desc_text&&Text");
-            // let url = pdfh(it, ".result_title&&a&&href");
             let url = pdfh(it, "div&&r-data");
-            // log(longText);
-            // log(shortText);
-            // log('url:'+url);
             let img = pd(it, ".figure_pic&&src");
             url = "https://node.video.qq.com/x/api/float_vinfo2?cid=" + url.match(/.*\/(.*?)\.html/)[1];
             log(shortText + "|" + url);
@@ -870,12 +1125,12 @@ var rule = {
     }),
     搜索: $js.toString(() => {
         let d = [];
-        let html = request(input);
+        let html = requestWithProxy(input, {});
         let json = JSON.parse(html);
         if (json.data.smartboxItemList.length > 0) {
             let cid = json.data.smartboxItemList[0].basicDoc.id;
             let url = 'https://node.video.qq.com/x/api/float_vinfo2?cid=' + cid;
-            let html1 = request(url);
+            let html1 = requestWithProxy(url, {});
             let data = JSON.parse(html1);
 
             d.push({
@@ -888,47 +1143,43 @@ var rule = {
         }
         setResult(d);
     }),
-       搜索: $js.toString(() => {
+    搜索: $js.toString(() => {
         let d = [];
         let mame = (input.split("/")[3]);
         let html = vod1(input.split("/")[3]);
         let json = JSON.parse(html);
-        
-        let list =json.data.normalList.itemList;
-        console.log(json); 
+
+        let list = json.data.normalList.itemList;
+        console.log(json);
         log(list[0].videoInfo.title);
         list.forEach(function(it) {
-            try{
-            if(it.doc.id.length>11){
-               d.push({
-                title: it.videoInfo.title,
-                img: it.videoInfo.imgUrl,
-                url: it.doc.id,
-               // content: "",
-                //desc: "data.rec"
-            }); 
-            }
-            }catch{
+            try {
+                if (it.doc.id.length > 11) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                    });
+                }
+            } catch {
 
             }
-     
+
         });
-         let list2 =json.data.areaBoxList[0].itemList;
-          list2.forEach(function(it) {
-            try{
-            if(it.doc.id.length>11 && it.videoInfo.title.match(mame) ){
-               d.push({
-                title: it.videoInfo.title,
-                img: it.videoInfo.imgUrl,
-                url: it.doc.id,
-               // content: "",
-                //desc: "data.rec"
-            }); 
-            }
-            }catch{
+        let list2 = json.data.areaBoxList[0].itemList;
+        list2.forEach(function(it) {
+            try {
+                if (it.doc.id.length > 11 && it.videoInfo.title.match(mame)) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                    });
+                }
+            } catch {
 
             }
-    
+
         });
         setResult(d);
     })
