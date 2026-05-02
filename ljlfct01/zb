@@ -14,6 +14,7 @@ CCTV-12HD,http://222.173.9.81/00/SNM/CHANNEL00000322/index.m3u8
 CCTV-13HD,http://222.173.9.81/00/SNM/CHANNEL00000345/index.m3u8
 CCTV-14HD,http://222.173.9.81/00/SNM/CHANNEL00000323/index.m3u8
 CCTV-15HD,http://222.173.9.81/00/SNM/CHANNEL00000346/index.m3u8
+CCTV-164k,http://gat.xyys.site/live/ZX6a8Nwr6GCv2sM89R0OVFvKsQVR865AiViAu4AiShk
 CCTV-17HD,http://222.173.9.81/00/SNM/CHANNEL00000303/index.m3u8
 CCTV-5+HD,http://222.173.9.81/00/SNM/CHANNEL00000316/index.m3u8
 CCTV-4中文国际欧洲,http://222.173.9.81/00/SNM/CHANNEL00000350/index.m3u8
@@ -110,6 +111,13 @@ TVB_Plus,http://gat.xyys.site/live/mmh_-g5Xc71EoN90_pDxIRE_0oK3MFAkVDh89QMRTqw
 ViuTV,http://gat.xyys.site/live/MeJkR2eZ-8tLVuIuNSDrHp9wz59JS67cIRDdx3hSdg0
 ViuTV6,http://gat.xyys.site/live/3vivvPjknp-sPP7ykMs6834uZ-sMCCgEtSp89iFxYRo
 ViuTV剧集,http://gat.xyys.site/live/ipwrrqXOQhjRzyXxvQqQ0fvD8z6KiJlwTzguq-bLd1M
+HOY76,http://gat.xyys.site/live/tmagASi3FrAoHyjYySkYitE4gdi0lBdsAzYci5jWV3Y
+HOY77,http://gat.xyys.site/live/KFbZ0D38oMkkHclFfbIYFFkP9tE70HTJWLauGUuEXMQ
+HOY78,http://gat.xyys.site/live/PIYFwJnvu372JQgSHr16yaPS_mJNrbuoiyhfadJGVx4
+RTHK31,http://gat.xyys.site/live/b_28stSiGpakU95fqfWmqbuE7YvubCQA_K8XDyn7so8
+RTHK32,http://gat.xyys.site/live/EBybhvBOmAaWv47zUuqRhcBaEREN4c3dniwk18tP8Hk
+Now新闻,http://gat.xyys.site/live/ZX6a8Nwr6GCv2sM89R0OVFvKsQVR865AiViAu4AiShk
+Now新闻2,http://gat.xyys.site/live/ZX6a8Nwr6GCv2sM89R0OVFvKsQVR865AiViAu4AiShk
 台湾,#genre#
 中天新闻,http://gat.xyys.site/live/QsNDGyJ6WUoTC0axQcN2Ohia6zA8uPGriweC8brcyJI
 中视新闻,http://gat.xyys.site/live/dMHbSSgWSlSdMe-SP2K4jJlNZ-7rAFEA1i9t9W5Xu7Q
@@ -118,7 +126,13 @@ TVBS新闻,http://gat.xyys.site/live/DgCTUERW2BDpWkkxm2DNP_iQ_a30qjfHU2pmMoEYgRY
 东森新闻,http://gat.xyys.site/live/k0J3X3OnPPi9H-EjQMa31RV5SdtciYAfnqeyXOZ2irw
 寰宇新闻,http://gat.xyys.site/live/EjZSpSLXCkcrZTsmKYQ3f1BwMpTBSeIXTXw_O50KYTs
 寰宇新闻台湾,http://gat.xyys.site/live/HaBkB3lFenTx17UXk0zBZdm_gTRe0fom7M4WIccgHQ8
-
+TVBS新闻,http://gat.xyys.site/live/DgCTUERW2BDpWkkxm2DNP_iQ_a30qjfHU2pmMoEYgRY
+民视新闻,http://gat.xyys.site/live/Fo5d3f6V0g9SWl-mq4w6CcrBuX1BoN3KLvTKFwMLSpA
+民视,http://gat.xyys.site/live/QSaDS9tZLaY3-anoaq4A--My1nTHZBr2EikEU51fVxA
+中视,http://gat.xyys.site/live/11rypicN2Sz2CTHmzSztwXP9sCrHSGsYG2yABIjFmM0
+华视,http://gat.xyys.site/live/B42rWtZAFX0vUN3A72CIPy_74JW5jv-9l0QFRKPJEwk
+华视新闻,http://gat.xyys.site/live/66Azazj-QaqhnfF_xe3sqdcpI95PFjG0orMI_x7DSbQ
+镜新闻,http://gat.xyys.site/live/qG3FAXXsOv-oTCS9pFUdpIuA8W88AnjAnoYdgA7uG5U
 影视,#genre#
 PopC,http://gat.xyys.site/live/MVPPTXQHrcx2eQw4YoEHurh19VyCISjcqiyhPOz1X_I
 Thrill,http://gat.xyys.site/live/FS4ftcM92nWyhEa_hd4xIuYSDUihVAT9OCUlpdgAJ24
@@ -127,7 +141,11 @@ Now爆谷,http://gat.xyys.site/live/_uV9soUXHje3oMDCgnHhm2SSM8MEtmloZCDWbyVIREw
 爱奇艺,http://gat.xyys.site/live/3bhMjUHWDzk349fDcGCfY-WCEufGrAqoR2Ookw4WyE4
 中国电影,http://gat.xyys.site/live/m_sV9c5TP8Y72gHRZvqDxCi9oNGVATPNM9qK6FlCkOY
 风云恐怖电影,http://gat.xyys.site/live/QrqML6TDc-YwuQreR4BJkEnxYToMzOP6hVJREojWQVM
-
+美亚电影,http://gat.xyys.site/live/z6DC4rQ9QwJIKG0jjBRPQGXURjrjTJ9AhBRh3IKesQQ
+龙华电影,http://gat.xyys.site/live/CxQiRQRVkvm7RKlA-OLRqTjQBvGeYKU_OTfD6JvvMtM
+龙华洋片,http://gat.xyys.site/live/08e0pyMTBoGAMy4o4lfToMIZmT-xtsXBWw6c-_Nj8Kc
+靖天电影,http://gat.xyys.site/live/4JxRq4SR0WsyfD6165zi4CHGy97c3RvuHlfYVE2_Kmw
+东森洋片,http://gat.xyys.site/live/vy_I8qWvrd9Emzi8FT3gXpuwyTakO9_s2C-kfMaSJ6k
 
 
 
