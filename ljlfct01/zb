@@ -1,6 +1,7 @@
 央视,#genre#
+CCTV-1HD,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 CCTV-1HD,http://222.173.9.81/00/SNM/CHANNEL00000311/index.m3u8
-CCTV-1HD,http://222.173.9.81/00/SNM/CHANNEL00000311/index.m3u8
+CCTV-2HD,http://82.157.249.28:4009/yso/yso.php?c=cctv2
 CCTV-2HD,http://222.173.9.81/00/SNM/CHANNEL00000317/index.m3u8
 CCTV-3HD,http://222.173.9.81/00/SNM/CHANNEL00000359/index.m3u8
 CCTV-4HD,http://222.173.9.81/00/SNM/CHANNEL00000320/index.m3u8
@@ -160,7 +161,16 @@ TVB千禧经典,http://gat.xyys.site/live/XVBHKtDqCBnwTCy0V5zyrrFfP--4UE8Vvy4T8p
 天映经典,http://gat.xyys.site/live/dbfzmLXLwd_mieyRGVqmF25SHr9Yt9UW0yXOc5VxwS0
 天映频道,http://gat.xyys.site/live/CbL_NMPAA0mtez6RDl_DF227wgp3bZelhnouDxiW9L0
 
-体育,#genre#
+综合,#genre#
+TVBS欢乐,http://gat.xyys.site/live/RaOlwrP1dnzPFvSrjsiFI4EU_h6ZXBoOPsQ-M1cNuiw
+TVBS亚洲,http://gat.xyys.site/live/fHqH1LBmfqAaD1819ps1Ca8z9CRcaZ4ZKqCmzt_hnuU
+TVBS精彩,http://gat.xyys.site/live/6dMmqcxLTnr-qnV5jl9CVY9hx3uUN07AK2xu7JOQYBo
+TVBS综艺,http://gat.xyys.site/live/lFqXxe-rdgtsXwQc-J3bSY4VC6qnfA7RcFBoGNIexpk
+TVBS台剧,http://gat.xyys.site/live/l5zEUt0IiQKsrncsi6YhptMN5s_bpU7tTpe3OdoSCl4
+八大综合,http://gat.xyys.site/live/WhYm9gHIaNGwj0kttQdHnzjzE4-k1RjGSOj5f2mQU7Q
+民视综艺,http://gat.xyys.site/live/JKNXERxsDhQa3szNejt90L0YUvAJlN2duXv2jl7e0vA
+民视影剧,http://gat.xyys.site/live/nfxcN88Oom9I_NqLQvS1IvqLHKJs24B9iRX-gjoOK4Y
+猪哥亮歌厅秀,http://gat.xyys.site/live/zc1N1uVvZ6XHRxGcjfIHRREmOBYCVnF8FZ5w8IxTi1M
 
 
 
