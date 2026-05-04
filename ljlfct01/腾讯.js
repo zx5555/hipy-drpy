@@ -121,7 +121,7 @@ globalThis.parseApiPool = [
     "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url=",
     "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
     "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url=",
-    "https://j.69mini.com/api/?key=3DkoNDlBsA1Re0uTnr&url="
+    "http://192.140.166.17:8864/api/index?parsesId=4&appid=10000&videoUrl="
 ];
 
 
