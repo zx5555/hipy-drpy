@@ -103,15 +103,18 @@ CHC家庭影院,http://222.173.9.81/00/SNM/CHANNEL00002028/index.m3u8
 山东生活,http://222.173.9.81/00/SNM/CHANNEL00000336/index.m3u8
 山东教育卫视,http://222.173.9.81/00/SNM/CHANNEL00000331/index.m3u8
 
+
+
 香港,#genre#
-凤凰中文,http://gat.xyys.site/cdnlive/play/2a61979f9bef42efadf7e099cfcefa67
-凤凰资讯,http://gat.xyys.site/cdnlive/play/5763a9c4261747c082491d048c81ae9a
-凤凰香港,http://gat.xyys.site/cdnlive/play/de29b0c1804240bd8cbb10456acedf63
+凤凰中文,http://pull.kslive.17in.net/live/fhwszwtgtIX0Wu3j9Vvw9ox5QAjoueKMev0n4.flv
+凤凰中文,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E4%B8%AD%E6%96%87%E5%8F%B0.php?id=301
+凤凰资讯,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E8%B5%84%E8%AE%AF%E5%8F%B0.php?id=301
+凤凰香港,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.php?id=301
 星空卫视,http://gat.xyys.site/cdnlive/play/93bc8fdfaaf447c39a17f2f3f91962c4
-TVB,http://gat.xyys.site/cdnlive/play/cbd98fbd6cc8420f875f250d6e6ab8cb
-TVB无线新闻,http://gat.xyys.site/cdnlive/play/c5d97d5ca74d41efb552c1f0c8fe85e3
-TVB明珠,http://gat.xyys.site/cdnlive/play/e5e63e84e09947f580257449c8387651
-TVB_Plus,http://gat.xyys.site/cdnlive/play/62b3dbb0b46b4ac4b59d6fa8bcf55e00
+TVB翡翠,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E7%BF%A1%E7%BF%A0%E5%8F%B0.php?id=301
+TVB无线新闻,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.php?id=301
+TVB明珠,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E6%98%8E%E7%8F%A0%E5%8F%B0.php?id=301
+TVB_Plus,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/TVBplus.php?id=301
 TVB生活,http://gat.xyys.site/cdnlive/play/7fd8ccd43f3b430082f7ffe8d956d3cd
 TVB娱乐新闻,http://gat.xyys.site/cdnlive/play/5be9921eb326409ab41b993b4888d2ce
 ViuTV,http://gat.xyys.site/cdnlive/play/2e841359b4b84cbfb8c145191db577c0
@@ -144,7 +147,8 @@ Now新闻,http://gat.xyys.site/cdnlive/play/57ef96e4abd74d3faeca72db88acf4d7
 台视新闻,http://gat.xyys.site/cdnlive/play/5883bb9d0ca9426c9bfdc6c5ea90e220
 非凡新闻,http://gat.xyys.site/cdnlive/play/b7f49bc0d1f94cf984ce8a34233882eb
 影视,#genre#
-PopC,http://gat.xyys.site/cdnlive/play/7b62962209f0414e9df73bfaf1ae75dd
+PopC,http://64.83.46.16:2083/stream/iptv/popc/stream05906.ts?uid=3552852898&u=admin&p=37323cd435069f5943f2809dd6162ca1082cb20b4d50d25bcd3861a42a399c93
+PopC,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/PopC.php?id=301
 Thrill,http://gat.xyys.site/cdnlive/play/5f1d101e03014983a326abcdce1eb90a
 Now星影,http://gat.xyys.site/cdnlive/play/653c235285674ab2b6c4a5186894431c
 Now爆谷,http://gat.xyys.site/cdnlive/play/62bd96ff50ed4e48b32bc93ab2c86b7d
