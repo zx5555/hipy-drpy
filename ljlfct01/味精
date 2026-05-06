@@ -22,6 +22,22 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
+    {
+      "key": "茫茫",
+      "name": "果果4K",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
+    },
+    {
+      "key": "hajim-腾讯备",
+      "name": "藤藤4K",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://fastlink.cokey.xyz/f/1MOEc5/%E8%85%BE%E8%85%BE.js"
+    },
    {
       "key": "金牌",
       "name": "♨️金牌｜4K线路",
