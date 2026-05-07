@@ -5,15 +5,7 @@
 
   ],
   "sites": [
-    {
-      "key": "🐍 猎手 | PY",
-      "name": "🐍 猎手 | PY",
-      "type": 3,
-      "api": "http://114.66.55.28:4816/api.php/app/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
+ 
 
     {
       "key": "🚀 火狐 | T4",
@@ -52,7 +44,7 @@
     },
     {
       "key": "天天",
-      "name": "天天┃高峰期卡就点击换源或者搜索",
+      "name": "天天┃秒播",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 2,

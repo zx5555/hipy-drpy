@@ -754,7 +754,7 @@
     "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url=",
     "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url=",
     "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
-    "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url=",
+    "http://101.201.171.207:9898/home/api?type=ys&uid=51497&key=ceinpqtvAJKLWX1236&url=",
     "https://j.69mini.com/api/?key=3DkoNDlBsA1Re0uTnr&url="
             ];
             

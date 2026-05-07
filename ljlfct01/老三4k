@@ -21,14 +21,14 @@
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
     },
     {
       "key": "guoguo",
       "name": "芒芒-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
     },
 
     {
@@ -37,17 +37,9 @@
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
-
-    {
-      "key": "🐍 猎手 | PY",
-      "name": "🐍 猎手 | PY",
-      "type": 3,
-      "api": "http://114.66.55.28:4816/api.php/app/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     }
+
+
 
 
   ],
@@ -71,13 +63,8 @@
       "name": "极速4k",
       "type": 1,
       "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
-    },
-      {
-      "name": "极速4k1",
-      "type": 1,
-      "url": "http://zhuyun.shanhaiguanwu.top/api/index?parsesId=1&appid=10000&videoUrl="
     }
-  
+
   ],
   "doh": [],
   "hosts": [
