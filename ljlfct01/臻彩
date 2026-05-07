@@ -6,7 +6,7 @@
     {
       "name": "🐅全网通直播",
       "type": 0,
-      "url": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/live",
+      "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -18,55 +18,10 @@
       "ua": "okhttp/3.15",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
-      {
-     "name": "🐅4K线路",
-      "type": 0,
-      "url": "https://gongdian.top/tv/iptv",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🐅风云",
-      "type": 0,
-      "url": "http://iptv.4666888.xyz/FYTV.m3u",
-      "ua": "okHttp/Mod-1.4.0.0",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
-    },
-  {
-    "name": "斯玛特源",
-    "url": "http://tv123.vvvv.ee/tv.m3u",
-    "header": {
-      "User-Agent": "okhttp/5.1.0"
     }
-  },
-  {
-      "name": "🐅易发TV",
-      "type": 0,
-      "url": "https://raw.bgithub.xyz/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
- {
-      "name": "🐅猫TV",
-      "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+
   ],
   "sites": [
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
     {
       "key": "guoguo",
       "name": "芒芒-（臻彩视界4K）",
@@ -74,6 +29,14 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/mg.js"
     },
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "藤藤-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/qq2.js"
+    },
+
     {
       "key": "哔哩视频",
       "name": "哔哩-（臻彩视界4K）",
@@ -119,13 +82,9 @@
      {
       "name": "4k直连2",
       "type": 1,
-      "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
-    },
-    {
-      "name": "4k直连3",
-      "type": 1,
-      "url": "http://192.140.166.17:8864/api/index?parsesId=4&appid=10000&videoUrl="
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
     }
+
   ],
   "doh": [],
   "hosts": [
