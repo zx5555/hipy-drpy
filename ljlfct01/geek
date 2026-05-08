@@ -5,7 +5,81 @@
 
   ],
   "sites": [
- 
+     {
+      "key": "drpyS_多多[盘]",
+      "name": "🎀多多┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/多多[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "多多[盘]",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_木偶[盘]",
+      "name": "🎀木偶┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/木偶[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "木偶[盘]",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_立播[盘]",
+      "name": "🎀立播┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/立播[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 0,
+      "quickSearch": 1,
+      "title": "立播[盘]",
+      "author": "EylinSir",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_欧哥[盘]",
+      "name": "🎀欧哥┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/欧哥[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "欧哥[盘]",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_虎斑[盘]",
+      "name": "🎀虎斑┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/虎斑[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "虎斑[盘]",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_至臻[盘]",
+      "name": "🎀至臻┃4K",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/至臻[盘]?pwd=50721480be241243",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "至臻[盘]",
+      "lang": "ds",
+      "ext": ""
+    },
 
     {
       "key": "🚀 火狐 | T4",

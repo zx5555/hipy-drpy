@@ -1443,6 +1443,13 @@
     "哔 哩 哔 哩"
   ],
   "lives": [
+    {
+      "name": "🐅涛涛TV",
+      "type": 0,
+      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/taoBox2620/taoBox2620/main/log.png",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
         {
             "name": "🛰️全球电视直播",
             "type": 0,
