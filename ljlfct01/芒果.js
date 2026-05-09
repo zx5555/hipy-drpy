@@ -751,11 +751,8 @@
             
             // 定义解析接口
             const parseApis = [
-    "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url=",
-    "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url=",
-    "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
-    "http://101.201.171.207:9898/home/api?type=ys&uid=51497&key=ceinpqtvAJKLWX1236&url=",
-    "https://j.69mini.com/api/?key=3DkoNDlBsA1Re0uTnr&url="
+    "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
+  
             ];
             
             let playUrl = videoUrl; // 默认使用原始地址
