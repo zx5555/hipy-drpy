@@ -1389,22 +1389,8 @@
       "name": "极速4k",
       "type": 1,
       "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
-    },
-          {
-            "name": "开心果解析",
-            "type": 1,
-            "url": "https://json.cfysoft.cc/api/?key=5249e5bb3cb34032040224799dae6d45&url="
-        },
-        {
-            "name": "草莓奶昔解析",
-            "type": 1,
-            "url": "http://117.50.204.51:2222/sf.php?url="
-        },
-        {
-            "name": "极速解析",
-            "type": 0,
-            "url": "https://api.jisuyunjifei.top/api/?key=7c2c39e57dc03852ea60f0432efb2836&player&url="
-        }
+    }
+       
 
   ],
   "flags": [

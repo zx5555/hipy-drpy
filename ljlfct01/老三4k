@@ -261,12 +261,42 @@
       "type": 3,
       "url": "Web"
     },
-      {
+    {
       "name": "极速4k",
       "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
     }
-      
+ 
   ],
   "doh": [],
   "hosts": [
