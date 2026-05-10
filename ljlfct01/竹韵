@@ -37,25 +37,214 @@
       "ext": "http://183.136.134.152:250/lib/qq2.js"
     },
     {
-      "key": "快映",
-      "name": "🐮快映┃app",
+      "key": "哔哩视频",
+      "name": "哔哩-（臻彩视界4K）",
       "type": 3,
-      "changeable": 0,
-      "api": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/Appfox.min.js",
-      "ext": {
-        "host": "https://www.baidukuaiy.top",
-        "ver": 3
-      }
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
     },
     {
-      "key": "多多",
-      "name": "多多｜4k ",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E5%A4%9A%E5%A4%9A[%E7%9B%98]?pwd=50721480be241243&filter=true",
+      "key": "hipy_js_百忙无果[官]",
+      "name": "神兽┃神兽臻彩4K",
+      "type": 3,
+      "api": "http://125.208.22.184:6695/uploads/tvbox/jsguan/drpy_dzlive/drpy_libs/drpy2.min.js",
+      "playerType": 3,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1
+      "order_num": 0,
+      "ext": "http://125.208.22.184:6695/uploads/tvbox/js/百忙无果[官].js"
+    },
+    {
+      "key": "极米4k",
+      "name": "神兽┃神兽原彩4K",
+      "type": 3,
+      "api": "http://110.42.41.52:8989/uploads/cangku/JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 1,
+      "changeable": 1,
+      "playerType": 3,
+      "ext": "https://210.16.170.113:8889/down/xeaGjhQ5QgKY.js"
+    },
+    {
+      "key": "极速",
+      "name": "神兽┃神兽极速2K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "playerType": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://210.16.170.113:3999/api.php/app/"
+    },
+    {
+      "key": "lvdou1",
+      "name": "神兽┃神兽自建4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://210.16.170.113:7000/api.php/app/"
+    },
+    {
+      "key": "lvdou",
+      "name": "神兽┃神兽高码4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://210.16.170.113:8999/api.php/app/"
+    },
+    {
+      "key": "bibidi",
+      "name": "神兽┃哔哩原画4K",
+      "type": 3,
+      "api": "csp_XYbilibili",
+      "ext": "/ZE6FY7TFUnOGwjVo+fPIwgxecYxJjwUmk+mafWAimNHpdXsAOCblVclaJ1esmEy0oUqs/rslu9zoqUFmnyORw==",
+      "jar": "https://210.16.170.113:8889/down/Cunn0dOmpgDd.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "jar": "http://125.208.22.159:5436/uploads/tvbox/jar/guSA1suSAI7N.jar",
+      "key": "bili综合",
+      "name": "神兽┃哔哩综合8K",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "",
+        "json": "https://125.208.22.159:8889/down/D77CEHX3DXyb.json"
+      },
+      "timeout": 20
+    },
+    {
+      "key": "lvdou5",
+      "name": "神兽┃神兽MV歌曲",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "playerType": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://210.16.170.113:1777/api.php/app/"
+    },
+    {
+      "key": "nangua",
+      "name": "神兽┃神兽南瓜",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },
+    {
+      "key": "csp_Gz360",
+      "name": "神兽┃神兽瓜子",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "http://125.208.22.184:6019/uploads/tvbox/jar/PandaQ0715.jpg",
+      "playerType": 2
+    },
+    {
+      "key": "荐片",
+      "name": "神兽┃神兽荐片",
+      "api": "csp_Jianpian",
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0920/22/6d2a7e3af5e28a49a4b9ba9f2ce74ed0.jpg",
+      "type": 3,
+      "ext": "https://api.ztcgi.com"
+    },
+    {
+      "key": "影视",
+      "name": "神兽┃神兽蓝光",
+      "type": 3,
+      "api": "http://154.40.47.142:666/lib/woniu.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "热播影视",
+      "name": "神兽┃神兽热播",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/zo65hv/wn.jpg",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "荐片",
+      "name": "神兽┃神兽荐片",
+      "api": "csp_Jianpian",
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0920/22/6d2a7e3af5e28a49a4b9ba9f2ce74ed0.jpg",
+      "type": 3,
+      "ext": "https://api.ztcgi.com"
+    },
+    {
+      "key": "1905",
+      "name": "神兽┃经典老片",
+      "type": 3,
+      "api": "csp_Web1905",
+      "jar": "http://125.208.22.184:6019/uploads/tvbox/jar/hbi.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "hipy_js_贝乐虎[儿]",
+      "name": "神兽┃贝乐儿歌",
+      "type": 3,
+      "api": "http://mzrjk.top/音乐/java/lib/drpy3.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://mzrjk.top/音乐/java/贝乐虎[儿].js"
+    },
+    {
+      "key": "健身瑜伽",
+      "name": "神兽┃健身瑜伽",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://mzrjk.top/音乐/java/哔哩合集2.json"
+    },
+    {
+      "key": "戏 曲",
+      "name": "神兽┃相声戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://mzrjk.top/戏曲/json/Blixq.json"
+    },
+    {
+      "key": "cc",
+      "name": "请勿相信视频中任何广告！资源来源于网络整和，如有侵权联系删除",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0
     }
 
 
