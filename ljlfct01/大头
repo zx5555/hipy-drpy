@@ -321,17 +321,77 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
-
     {
-      "name": "臻彩4K极速",
+      "name": "视界4K极速",
       "type": 1,
-      "url": "http://183.136.134.152:268/api/index?parsesId=3248&appid=10000&videoUrl="
-   },
-   {
-      "name": "臻彩4k专线1",
+      "url": "https://aaa.69mini.com/api/index?parsesId=665&appid=76960&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "视界4K极速1",
       "type": 1,
-      "url": "http://43.138.212.149:66/api/index?parsesId=2&appid=10001&videoUrl="
+      "url": "http://183.136.134.152:268/api/index?parsesId=3248&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
     }
+
   ],
   "flags": [
     "youku",
