@@ -1,7 +1,15 @@
 {
 
   "sites": [
-
+    {
+      "key": "星耀|cc高码",
+      "name": "🐍 cc | 高码",
+      "type": 3,
+      "api": "http://47.100.99.38:1122/watching-movies-and-dramas-master/emby3.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
 
     {
       "key": "hipy_js_腾云驾雾[官]",

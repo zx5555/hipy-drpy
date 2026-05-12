@@ -72,7 +72,15 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
-
+    {
+      "key": "🐍 cc",
+      "name": "🐍 猎手 | PY",
+      "type": 3,
+      "api": "http://47.100.99.38:1122/watching-movies-and-dramas-master/emby3.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
     {
       "key": "hipy_js_百忙无果[官]",
       "name": "神兽┃神兽臻彩4K",
@@ -281,41 +289,25 @@
 
   ],
   "parses": [
-
     {
+      "name": "WEB解析",
+      "type": 0,
+      "url": ""
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+      {
       "name": "极速4k",
       "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
     }
  
   ],
