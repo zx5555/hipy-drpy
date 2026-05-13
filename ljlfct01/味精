@@ -12,8 +12,8 @@
       "key": "小苹果媒体库",
       "name": " cc | 高码",
       "type": 3,
-      "api": "http://47.100.99.38:1122/watching-movies-and-dramas-master/emby3.py",
-      "ext": "http://192.140.166.17:8864//api/history/list",
+      "api": "http://wpjx.chuan.33love.cn/api/jar/config/qq?spider_key=eA2Ta1AtKRMr0xUz",
+      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
