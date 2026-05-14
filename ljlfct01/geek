@@ -55,7 +55,18 @@
         "url": "http://v.rbotv.cn"
       }
     },
- 
+    {
+      "key": "wbbb_note",
+      "name": "歪比巴卜",
+      "type": 4,
+      "api": "http://149.118.133.251:8080/video/wbbb_note",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "header": {
+        "token": "19179cb266ab9438"
+      }
+    }, 
     {
       "key": "新浪影视",
       "name": "新浪影视┃定南佳美",
