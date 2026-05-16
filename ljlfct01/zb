@@ -397,7 +397,7 @@ TVB明珠,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E6%98%8E%E7%8F%A0%E5%8F
 TVB_Plus,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/TVBplus.php?id=301
 TVB千禧经典,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%8D%83%E7%A6%A7%E7%B6%93%E5%85%B8%E5%8F%B0.php?id=301
 台湾,#genre#
-中天新闻,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E%E5%8F%B0.php?id=301
+中天新闻,http://mg.hmysapp.cn:177/港澳台/台湾湾4G/中天新闻台.php?id=301
 TVBS,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/TVBS.php?id=301
 TVBS新闻,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/TVBS%E6%96%B0%E8%81%9E%E5%8F%B0.php?id=301
 三立综合,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/%E4%B8%89%E7%AB%8B%E7%B6%9C%E5%90%88%E5%8F%B0.php?id=301
@@ -415,8 +415,9 @@ TVBS新闻,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/TVBS%E6%96%B0%E8%81%9E%
 华视,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/%E8%8F%AF%E8%A6%96.php?id=301
 镜新闻,http://mg.hmysapp.cn:177/%E5%8F%B04G%E6%B9%BE/%E9%8F%A1%E9%9B%BB%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0.php?id=301
 影视,#genre#
-PopC,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/PopC.php?id=301
-Thrill,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/Thrill.php?id=301
+PopC,http://mg.hmysapp.cn:177/港澳台/香港港hk/PopC.php?id=301
+PopC,http://gat.xyys.site/cdnlive.php?mode=play;id=72c5e8ed98e857b3a31a5103a22bb938;token=us9pbO62O7DbKMqaBdz275A31bGG6Hek
+Thrill,http://mg.hmysapp.cn:177/港澳台/香港港hk/Thrill.php?id=301
 美亚电影,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E7%BE%8E%E4%BA%9E%E9%9B%BB%E5%BD%B1%E5%8F%B0.php?id=301
 TVB黄金华剧,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E9%BB%83%E9%87%91%E8%8F%AF%E5%8A%87%E5%8F%B0.php?id=301
 天映频道,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%A4%A9%E6%98%A0%E7%B6%93%E5%85%B8%E9%A0%BB%E9%81%93.php?id=301
@@ -424,7 +425,7 @@ TVB黄金华剧,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E9%BB%83%E9%87%91
 
 港台,#genre#
 东森洋片,https://o11.163189.xyz/stream/live/iqiyi/stream_0.php?u=admin&p=69fe3eb1f0b037bc2479cb4fbd56551848343f071f939422ef250f04f68b4cee&uid=
-Thrill,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/Thrill.php?id=301
+Thrill,http://mg.hmysapp.cn:177/港澳台/香港港hk/Thrill.php?id=301
 美亚电影,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E7%BE%8E%E4%BA%9E%E9%9B%BB%E5%BD%B1%E5%8F%B0.php?id=301
 TVB黄金华剧,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E9%BB%83%E9%87%91%E8%8F%AF%E5%8A%87%E5%8F%B0.php?id=301
 天映频道,http://mg.hmysapp.cn:177/%E9%A6%99%E6%B8%AFhk/%E5%A4%A9%E6%98%A0%E7%B6%93%E5%85%B8%E9%A0%BB%E9%81%93.php?id=301
